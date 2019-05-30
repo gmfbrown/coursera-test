@@ -1,0 +1,83 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #888888;
+  border-radius: 0;
+  border: 1;
+  border-color: #000000;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+
+h1 { /* Restaurant name */
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+}
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  color: #000000;
+}
+
+#collapsable-nav{
+  border-top: 0;
+}
+
+#nav-list {
+  background-color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list li {
+  border-top: 1px solid #000000;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:hover .icon-bar {
+  border: 1px solid #E7E7E7;
+  background-color: #888888;
+}
+.navbar-header button.navbar-toggle:focus, .navbar-header button.navbar-toggle:focus .icon-bar {
+  border: 1px solid #E7E7E7;
+  background-color: #888888;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+#main-content {
+  padding: 30px 30px;
+  padding-top: 0px;
+}
+
+#main-content h1 {
+  padding-bottom: 20px;
+}
+
+h2 { /* Restaurant name */
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10;
+}
+
+#home-tiles{
+	background-color: #888888;
+}
